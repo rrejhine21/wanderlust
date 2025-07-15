@@ -15,7 +15,7 @@ const TabIcon = ({ focused, icon, title }: { focused: boolean; icon: any; title:
                     resizeMode='contain'
                     className='size-6' 
                 />
-                <Text className={`${focused ? 'text-accent' : 'text-primary'} text-xs w-full text-center mt-1`}>{title}</Text>
+                <Text className={`${focused ? 'text-accent font-bold' : 'text-light-300'} text-xs w-full text-center mt-1`}>{title}</Text>
             </View>
         </>
     )
@@ -27,7 +27,7 @@ const _layout = () => {
         screenOptions={{
             tabBarShowLabel: false,
             tabBarStyle: {
-                backgroundColor: 'white',
+                backgroundColor: '#27272A',
                 position: 'absolute',
                 borderTopColor: '#0061ff1a',
                 borderTopWidth: 1,
