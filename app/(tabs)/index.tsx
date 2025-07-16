@@ -17,10 +17,10 @@ export default function Index() {
           <TouchableOpacity
             onPress={() => setModalVisible(!modalVisible)}
           >
-            <Image source={icons.info} tintColor="#B09FCA" className="mr-3.5"/>
+            <Image source={icons.info} tintColor="#B09FCA" className="size-7 mr-3.5"/>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Image source={icons.notifs} tintColor="#B09FCA" />
+            <Image source={icons.notifs} tintColor="#B09FCA" className="size-7" />
           </TouchableOpacity>          
         </View>        
       </View>
@@ -94,7 +94,7 @@ export default function Index() {
               <Pressable
                 className="rounded-full p-xl"
                 onPress={() => setModalVisible(!modalVisible)}>
-                <Image source={icons.close} tintColor="#B09FCA" className="size-5" />
+                <Image source={icons.close} tintColor="#B09FCA" className="size-7" />
               </Pressable>
             </View>
 
