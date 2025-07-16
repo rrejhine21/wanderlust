@@ -7,6 +7,7 @@ import home from "@/assets/icons/home.png";
 import info from "@/assets/icons/info.png";
 import library from "@/assets/icons/library.png";
 import logo from "@/assets/icons/logo.png";
+import mode from "@/assets/icons/mode.png";
 import more from "@/assets/icons/more.png";
 import notifs from "@/assets/icons/notifs.png";
 import person from "@/assets/icons/person.png";
@@ -15,6 +16,7 @@ import profile from "@/assets/icons/profile.png";
 import save from "@/assets/icons/save.png";
 import search from "@/assets/icons/search.png";
 import search2 from "@/assets/icons/search2.png";
+import setting from "@/assets/icons/setting.png";
 import star from "@/assets/icons/star.png";
 
 export const icons = {
@@ -35,5 +37,7 @@ export const icons = {
   search2,
   filter,
   more,
-  close
+  close,
+  mode,
+  setting
 };
