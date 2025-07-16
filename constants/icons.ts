@@ -1,5 +1,6 @@
 import add from "@/assets/icons/add.png";
 import arrow from "@/assets/icons/arrow.png";
+import close from "@/assets/icons/close.png";
 import explore from "@/assets/icons/explore.png";
 import filter from "@/assets/icons/filter.png";
 import home from "@/assets/icons/home.png";
@@ -33,5 +34,6 @@ export const icons = {
   notifs,
   search2,
   filter,
-  more
+  more,
+  close
 };
