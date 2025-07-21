@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "wanderlust",
+    "name": "Wanderlust",
     "slug": "wanderlust",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/logo.png",
     "scheme": "novels",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true
@@ -21,20 +21,38 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/logo.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/logo.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+
+    [
+      "expo-font",
+      {
+        "fonts": [
+          "./assets/fonts/Poppins-Black.ttf",
+          "./assets/fonts/Poppins-ExtraBold.ttf",
+          "./assets/fonts/Poppins-Bold.ttf",
+          "./assets/fonts/Poppins-SemiBold.ttf",
+          "./assets/fonts/Poppins-Medium.ttf",
+          "./assets/fonts/Poppins-Regular.ttf",
+          "./assets/fonts/Poppins-Light.ttf",
+          "./assets/fonts/Poppins-Thin.ttf"
+        ]
+      }
+    ]
+
     ],
+    
     "experiments": {
       "typedRoutes": true
     }
